@@ -43,13 +43,6 @@ app.get('/about', (req, res) => {
     })
 })
 
-app.get('/help', (req, res) => {
-    res.render('help', {
-        helpText: 'This is some Helpfull message.',
-        name: 'Bob Marley'
-    })
-})
-
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
         return res.send({
