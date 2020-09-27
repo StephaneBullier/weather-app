@@ -19,6 +19,7 @@
     "postman-request": "^2.88.1-postman.25"
   },
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "prettier": "2.1.2"
   }
 }
